@@ -67,3 +67,18 @@ Email us your notebook to get featured: notebooks@kubeskills.com
 ## 🛡 License
 
 This repo is licensed under the [MIT License](LICENSE).
+
+
+---
+
+## ❓ Have a Question? Submit a PR!
+
+If you hit a roadblock or you're unsure about something you learned:
+
+1. Open a file like `99-reflections/weekX.md` or create a new `questions/question.md`.
+2. Add your question and context—what you tried, what you expected, and what confused you.
+3. Submit a Pull Request titled: `question: [Your Topic]`
+
+Our instructors will respond directly in the PR or guide you to the right resource. Asking questions is part of the learning process—lean into it!
+
+---
