@@ -1,0 +1,39 @@
+name: "❓ Ask a Question"
+description: Submit a question for a KubeSkills instructor or the community.
+title: "question: [Your Topic Here]"
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking a question! We’re here to help. Please be as specific as you can so we can give the best support.
+
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      description: What is your question about?
+      placeholder: e.g. "NetworkPolicy lab", "kubectl troubleshooting", "FluxCD step"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What’s your question?
+      description: Include any command outputs, YAML snippets, or steps you've tried so far.
+      placeholder: |
+        I'm trying to apply a NetworkPolicy, but my pods are still reachable. Here's what I did...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: How urgent is this question?
+      options:
+        - Just curious
+        - Blocking my progress
+        - Preparing for a certification
+    validations:
+      required: false
