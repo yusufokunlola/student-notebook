@@ -1,6 +1,6 @@
 # 📘 KubeSkills Student Notebook Template
 
-Welcome to your **KubeSkills GitHub Repository of Work (GROW)**.
+Welcome to your **KubeSkills GitHub Repository of Work (GROW)** 🪴.
 
 This is your personal portfolio to document everything you learn through Kubernetes labs, YAML exercises, and weekly reflections.
 
