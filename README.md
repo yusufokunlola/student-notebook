@@ -1,97 +1,69 @@
 # 📘 KubeSkills Student Notebook Template
 
-Welcome to your **KubeSkills GitHub Repository of Work (GROW)** notebook!
-This repo is your personal space to document everything you learn as you grow your Kubernetes skills.
+Welcome to your **KubeSkills GitHub Repository of Work (GROW)**.
 
-> ✅ Fork this repo to get started.
+This is your personal portfolio to document everything you learn through Kubernetes labs, YAML exercises, and weekly reflections.
+
+> ✅ Fork this repo to get started and prove what you know—one commit at a time.
 
 ---
 
-## 📁 Repository Structure
+## 🚀 Your First Tasks
+
+1. ✅ Fork this repository to your own GitHub account.
+2. ✅ Open `00-getting-started/lab-notes.md` and follow the instructions.
+3. ✅ Complete the first lab in `01-kubernetes-fundamentals/`.
+4. ✅ Create a new reflection file in `99-reflections/week1.md`.
+5. ✅ Commit and push your changes to GitHub.
+6. ✅ Share your work using `#GROWportfolio` and tag [@KubeSkills](https://linkedin.com/company/kubeskills).
+
+---
+
+## 📁 Suggested Folder Structure
 
 ```
 student-notebook/
-├── README.md
 ├── 00-getting-started/
 │   └── lab-notes.md
 ├── 01-kubernetes-fundamentals/
-│   └── pod-definition.yaml
+│   ├── nginx-pod.yaml
+│   └── lab-guide.md
 ├── 02-gitops/
 │   ├── fluxcd-installation.md
-│   └── kustomize-example.yaml
+│   └── lab-guide.md
 ├── 03-security/
-│   └── podsecuritypolicy-example.yaml
+│   ├── podsecuritypolicy-example.yaml
+│   └── lab-guide.md
 ├── 99-reflections/
-│   └── week1.md
-└── .github/
-    └── CONTRIBUTING.md
+│   ├── week1.md
+│   ├── week2.md
+│   └── week3.md
+└── README.md
 ```
 
 ---
 
-## 🛠 How to Use This Repo
+## ✅ What You’ll Gain
 
-1. **Document Labs**
-   - After each KubeSkills lab or tutorial, copy relevant manifests into the correct folder.
-   - Write a short explanation: What did you learn? What was hard? Any commands you used?
-
-2. **Track Your Progress**
-   - Add `weekX.md` files under `99-reflections/`.
-   - Write 2-3 bullet points about what you accomplished or questions you still have.
-
-3. **Show Your Work**
-   - Keep your commits clean and meaningful.
-   - Push changes regularly—this becomes part of your portfolio!
+- A real-world Kubernetes portfolio
+- Practice using kubectl, YAML, Helm, and GitOps tools
+- Security-first awareness in your Kubernetes configs
+- Confidence in sharing and reflecting on your growth
 
 ---
 
-## ✨ Example Entries
+## 📣 Want to Share Your Work?
 
-### `01-kubernetes-fundamentals/pod-definition.yaml`
-```yaml
-apiVersion: v1
-kind: Pod
-metadata:
-  name: my-first-pod
-spec:
-  containers:
-    - name: nginx
-      image: nginx
+Add a badge to your repo:
+```markdown
+![GROW Portfolio](https://img.shields.io/badge/GROW-portfolio-blue)
 ```
 
-### `02-gitops/fluxcd-installation.md`
-```
-## Installed FluxCD on K3s using the following commands:
-
-```bash
-flux install
-flux create source git my-app --url=https://github.com/myuser/app --branch=main
-```
-
-Learned how GitOps automates deployment using version control!
-```
+Tag your posts with: `#KubeSkillsGROW` `#KubeSkills`  
+Email us your notebook to get featured: notebooks@kubeskills.com
 
 ---
 
-## 🧪 Starter Tasks
+## 🛡 License
 
-- [ ] Fork this repository
-- [ ] Create a `week1.md` file under `99-reflections/`
-- [ ] Complete the "Getting Started" lab and document it
-- [ ] Push your changes to GitHub
-
----
-
-## 🌐 Share & Connect
-
-- Tag us on LinkedIn or X: `#KubeSkills #GROWportfolio`
-- Want your notebook featured? Submit it to `notebooks@kubeskills.com`
-
----
-
-## 📜 License
-MIT
-
-Happy learning, and welcome to the community of Kubernetes builders!
-
-— The KubeSkills Team 🚀
+This repo is licensed under the [MIT License](LICENSE).
