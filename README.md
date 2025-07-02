@@ -32,14 +32,18 @@ student-notebook/
 │   ├── fluxcd-installation.md
 │   └── lab-guide.md
 ├── 03-security/
-│   ├── podsecuritypolicy-example.yaml
 │   └── lab-guide.md
 ├── 99-reflections/
 │   ├── week1.md
 │   ├── week2.md
 │   └── week3.md
+├── docs/
+│   └── index.md
+├── mkdocs.yml
 └── README.md
 ```
+
+
 
 ---
 
@@ -54,13 +58,13 @@ student-notebook/
 
 ## 📣 Want to Share Your Work?
 
-Add a badge to your repo:
+- Add a badge to your repo:
 ```markdown
 ![GROW Portfolio](https://img.shields.io/badge/GROW-portfolio-blue)
 ```
 
-Tag your posts with: `#KubeSkillsGROW` `#KubeSkills`  
-Email us your notebook to get featured: notebooks@kubeskills.com
+- Tag your posts with: `#KubeSkillsGROW` `#KubeSkills`  
+- Email us your notebook to get featured: notebooks@kubeskills.com
 
 ---
 
@@ -82,3 +86,32 @@ If you hit a roadblock or you're unsure about something you learned:
 Our instructors will respond directly in the PR or guide you to the right resource. Asking questions is part of the learning process—lean into it!
 
 ---
+
+## 🌐 How to Publish Your Portfolio with GitHub Pages
+
+Want to turn your notebook into a live website? Follow these steps:
+
+### ✅ Step 1: Install MkDocs
+
+```bash
+pip install mkdocs mkdocs-material
+```
+
+### ✅ Step 2: Preview Your Site Locally
+
+```bash
+mkdocs serve
+```
+Then visit: http://localhost:8000
+
+### ✅ Step 3: Enable GitHub Pages
+
+1. Go to Settings > Pages in your GitHub repo
+2. Under Source, select:
+ - Branch: main
+ - Folder: /docs
+3. Visit your new site at:
+```
+https://<your-username>.github.io/student-notebook/
+```
+
