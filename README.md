@@ -15,7 +15,7 @@ This is your personal portfolio to document everything you learn through Kuberne
 3. ✅ Complete the first lab in `01-kubernetes-fundamentals/`.
 4. ✅ Create a new reflection file in `99-reflections/week1.md`.
 5. ✅ Commit and push your changes to GitHub.
-6. ✅ Share your work using `#GROWportfolio` and tag [@KubeSkills](https://linkedin.com/company/kubeskills).
+6. ✅ Share your work using `#KubeSkillsGROW` and tag [@KubeSkills](https://linkedin.com/company/kubeskills).
 
 ---
 
