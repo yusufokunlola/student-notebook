@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: secure-pod
+  labels:
+    app: secure-app
+spec:
+  securityContext:
+    runAsNonRoot: true
+  containers:
+    - name: secure-container
+      image: busybox
+      command: ["sleep", "3600"]
+      securityContext:
+        runAsUser: 1000
+        allowPrivilegeEscalation: false
+        readOnlyRootFilesystem: true
+        capabilities:
+          drop:
+            - ALL
