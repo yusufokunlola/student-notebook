@@ -34,7 +34,7 @@ By the end of this lab, you will:
 ```bash
 flux --version
 ```
-> HINT: Install flux using [this guide](https://blog.kubeskills.com/hands-on-with-fluxcd)
+> HINT: Install flux using [this guide](https://blog.kubeskills.com/hands-on-with-fluxcd#heading-installing-fluxcd)
 
 2. Bootstrap your repo:
 
