@@ -16,3 +16,5 @@ This is your first notebook entry. Use this space to document the setup of your 
 kubectl cluster-info
 kind create cluster --name grow-lab
 ```
+
+When ready, move on to [Kubernetes Fundamentals](../01-kubernetes-fundamentals/lab-guide.md)
