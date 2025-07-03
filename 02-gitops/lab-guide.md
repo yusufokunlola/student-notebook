@@ -125,7 +125,6 @@ flux get kustomizations
 ## GitOps Impact
 - I now track all changes in Git, not in CLI history
 - I can rebuild the cluster state by cloning a repo
-```
 
 ---
 
