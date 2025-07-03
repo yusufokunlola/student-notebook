@@ -1,7 +1,7 @@
 # Week 4 Reflection – Services and Ingress
 
-Welcome to your Week 4 reflection entry! In this week, you explored Kubernetes networking through Services and Ingress.  
-Take a few minutes to reflect on what you learned, what challenged you, and how you might apply it.
+In this week, I explored Kubernetes networking through Services and Ingress.  
+Here are my reflections on what I learned, what challenged me, and how you might apply it.
 
 ---
 

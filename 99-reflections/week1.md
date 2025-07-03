@@ -1,17 +1,23 @@
-# Week 1 Reflection – Getting Started & Pods
+# Week 1 Reflection – NGINX Pod and Deployment
 
-This week you set up your Kubernetes environment and deployed your first Pod.
+This week, I worked through the Kubernetes fundamentals lab where I deployed a basic NGINX web server using both a Pod and a Deployment. I also learned about security contexts and how to scale workloads.
 
 ---
 
 ## ✅ What I Learned
 
 - 
+- 
+- 
+- 
+
 
 ---
 
 ## ❓ What Was Challenging
 
+- 
+- 
 - 
 
 ---
@@ -20,12 +26,16 @@ This week you set up your Kubernetes environment and deployed your first Pod.
 
 ```bash
 
+
+
+
 ```
 
 ---
 
-## 🔐 Security Awareness I Gained
+## 🔐 Security Improvements I Made
 
+- 
 - 
 
 ---
@@ -33,15 +43,19 @@ This week you set up your Kubernetes environment and deployed your first Pod.
 ## 📝 Questions I Still Have
 
 - 
+- 
+- 
 
 ---
 
 ## 📎 Related YAMLs
 
 - `nginx-pod.yaml`
+- `nginx-deployment.yaml`
 
 ---
 
-## 🧠 Bonus Reflection
+## 🚀 Looking Ahead
 
-What surprised you about Kubernetes so far?
+I’m excited to explore GitOps in Week 2 and automate deployments using FluxCD.
+

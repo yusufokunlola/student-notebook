@@ -1,18 +1,25 @@
-# Week 2 Reflection – GitOps and FluxCD
+# Week 2 Reflection – GitOps with FluxCD
 
-This week you practiced GitOps workflows using FluxCD to manage deployments.
+This week, I set up GitOps in my cluster using **FluxCD**. I bootstrapped my own repository, created a Git source and a Kustomization, and learned how declarative workflows can automate and standardize Kubernetes operations.
 
 ---
 
 ## ✅ What I Learned
 
 - 
+- 
+- 
+
 
 ---
 
 ## ❓ What Was Challenging
 
+-
 - 
+- 
+- 
+
 
 ---
 
@@ -20,29 +27,41 @@ This week you practiced GitOps workflows using FluxCD to manage deployments.
 
 ```bash
 
+
+
 ```
 
 ---
 
-## 📚 GitOps Principles I Better Understand Now
+## 🔁 GitOps Impact
 
 - 
-
----
-
-## 🔁 Git vs CLI Deployment: What I Prefer
-
 - 
+- 
+- 
+
 
 ---
 
 ## 📝 Questions I Still Have
 
 - 
+- 
+- 
+-
+
 
 ---
 
-## 📎 Related YAMLs
+## 📎 Related Files
 
 - `clusters/dev/kustomization.yaml`
-- Flux bootstrap or GitRepository source
+- `.flux.yaml` (if applicable)
+- GitHub repository path and bootstrap settings
+
+---
+
+## 🚀 Looking Ahead
+
+I’m curious to explore how GitOps handles secrets, multi-cluster environments, and policy-based validations using tools like SOPS, Kyverno, or Vault.
+
