@@ -128,8 +128,7 @@ kubectl scale deployment nginx-deployment --replicas=3
 ## 📣 Share Your Progress
 
 Post a screenshot or summary using:
-- 🏷 `#GROWportfolio`
-- 🏷 `#KubeSkills`
+- 🏷 `#KubeSkillsGROW`
 - Tag [@KubeSkills](https://linkedin.com/company/kubeskills)
 
 ---
