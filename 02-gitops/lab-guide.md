@@ -15,4 +15,4 @@ flux get kustomizations
 4. Reflect in `99-reflections/week2.md`.
 
 ## 📣 Share
-Tag your post with `#GROWportfolio` and `#GitOps`.
+Tag your post with `#KubeSkillsGROW` and `#GitOps`.

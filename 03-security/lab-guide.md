@@ -15,4 +15,4 @@ kubectl get psp
 3. Reflect in `99-reflections/week3.md`.
 
 ## 📣 Share
-Post insights or YAML snippets using `#GROWportfolio` and `#K8sSecurity`.
+Post insights or YAML snippets using `#KubeSkillsGROW` and `#K8sSecurity`.
