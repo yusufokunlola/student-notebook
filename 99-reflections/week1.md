@@ -1,14 +1,47 @@
-# Week 1 Reflection
+# Week 1 Reflection – Getting Started & Pods
 
-## What I Learned
-- Learned how to create and apply a simple pod definition.
-- Understood the role of kubectl in Kubernetes administration.
-- Explored how to create and manage a local kind cluster.
+This week you set up your Kubernetes environment and deployed your first Pod.
 
-## Open Questions
-- How does Kubernetes decide which node to schedule a pod on?
+---
 
-## Useful Command
+## ✅ What I Learned
+
+- 
+
+---
+
+## ❓ What Was Challenging
+
+- 
+
+---
+
+## 🧪 Commands I Practiced
+
+```bash
+
 ```
-kubectl describe pod nginx
-```
+
+---
+
+## 🔐 Security Awareness I Gained
+
+- 
+
+---
+
+## 📝 Questions I Still Have
+
+- 
+
+---
+
+## 📎 Related YAMLs
+
+- `nginx-pod.yaml`
+
+---
+
+## 🧠 Bonus Reflection
+
+What surprised you about Kubernetes so far?
