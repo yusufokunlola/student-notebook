@@ -20,8 +20,8 @@ By the end of this lab, you will:
 - A local Kubernetes cluster (e.g., `kind create cluster --name grow-lab`)
 - `kubectl` installed and working
 - This directory should contain:
-  - `nginx-pod.yaml`
-  - `nginx-deployment.yaml`
+  - [nginx-pod.yaml](nginx-pod.yaml)
+  - [nginx-deployment.yaml](nginx-deployment.yaml)
 
 ---
 
