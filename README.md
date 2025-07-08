@@ -26,17 +26,28 @@ student-notebook/
 ├── 00-getting-started/
 │   └── lab-notes.md
 ├── 01-kubernetes-fundamentals/
+│   ├── lab-guide.md
+│   ├── nginx-deployment.yaml
 │   ├── nginx-pod.yaml
-│   └── lab-guide.md
+│   └── pod-example.yaml
 ├── 02-gitops/
-│   ├── fluxcd-installation.md
 │   └── lab-guide.md
 ├── 03-security/
-│   └── lab-guide.md
+│   ├── lab-guide.md
+│   ├── network-policy.yaml
+│   ├── pod-security-context.yaml
+│   └── secure-pod.yaml
+├── 04-services-ingress/
+│   ├── kind-config.yaml
+│   ├── lab-guide.md
+│   ├── web-ingress.yaml
+│   ├── web-pod.yaml
+│   └── web-service.yaml
 ├── 99-reflections/
 │   ├── week1.md
 │   ├── week2.md
-│   └── week3.md
+│   ├── week3.md
+│   └── week4.md
 ├── docs/
 │   └── index.md
 ├── mkdocs.yml
