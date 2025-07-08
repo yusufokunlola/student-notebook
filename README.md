@@ -43,11 +43,17 @@ student-notebook/
 │   ├── web-ingress.yaml
 │   ├── web-pod.yaml
 │   └── web-service.yaml
+├── 05-stateful-deploy/
+│   ├── lab-guide.md
+│   ├── postgres-deployment.yaml
+│   ├── postgres-pvc.yaml
+│   └── postgres-svc.yaml
 ├── 99-reflections/
 │   ├── week1.md
 │   ├── week2.md
 │   ├── week3.md
-│   └── week4.md
+│   ├── week4.md
+│   └── week5.md
 ├── docs/
 │   └── index.md
 ├── mkdocs.yml
