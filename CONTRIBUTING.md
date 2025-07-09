@@ -79,6 +79,38 @@ The best contributions (labs, questions, portfolios) may be:
 
 ---
 
+## 🖥️ Preview Your Changes with MkDocs
+
+Before submitting a Pull Request, you can preview your notebook or lab using [MkDocs](https://www.mkdocs.org/).
+
+### Step 1: Install MkDocs
+
+```bash
+pip install mkdocs mkdocs-material
+```
+
+### Step 2: Run the Local Server
+
+from the root of the project (where mkdocs.yml lives):
+```bash
+mkdocs serve
+```
+Then visit: http://localhost:8000
+
+### Step 3: Troubleshoot
+
+- If the site fails to build, check for:
+  - Bad links or missing files in `docs/`
+  - Indentation issues in `mkdocs.yml`
+  - Missing frontmatter headers (`# Title`) in Markdown
+
+✅ Good to Know
+- All docs are located under `docs/`
+- MkDocs auto-reloads as you save changes
+- This is the same setup used to publish your portfolio site via GitHub Pages
+
+---
+
 ## 📜 License
 
 By contributing, you agree that your work may be publicly shared and used as part of the GROW initiative under the MIT License.
