@@ -130,6 +130,39 @@ The best contributions (labs, questions, portfolios) may be:
 
 ---
 
+## 🎥 Want to Create a GROW Video Tutorial?
+
+If you enjoyed building a lab or explaining a concept, **teach it to others!**
+
+### ✅ What You Can Record
+- A walk-through of your lab or YAML files
+- A demo of `kubectl` commands and output
+- A live explanation of your weekly reflection
+- A “what I learned” short video (2–10 mins)
+
+### 🛠 Tools You Can Use
+- [Loom](https://loom.com) or [OBS Studio](https://obsproject.com/)
+- Screen recording tools like QuickTime or ShareX
+- Your phone (just show your terminal and narrate)
+
+### 💡 Tips
+- Keep it short and focused on 1 concept
+- Speak clearly and show the commands you're running
+- Link to the files in your student notebook repo
+
+### 📣 Where to Share
+- Upload to YouTube, LinkedIn, or your GitHub README
+- Tag with `#KubeSkillsGROW`
+- Email your link to: [notebooks@kubeskills.com](mailto:notebooks@kubeskills.com)
+
+
+We’ll feature the best ones in our community and learning portal!
+
+
+
+
+---
+
 ## 🖥️ Preview Your Changes with MkDocs
 
 Before submitting a Pull Request, you can preview your notebook or lab using [MkDocs](https://www.mkdocs.org/).
