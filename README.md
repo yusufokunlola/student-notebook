@@ -92,6 +92,21 @@ This repo is licensed under the [MIT License](LICENSE).
 
 ---
 
+
+---
+
+## 🤝 Want to Contribute?
+
+We welcome your reflections, labs, and questions.
+
+👉 [Read the Contribution Guide](CONTRIBUTING.md)
+
+Whether it's fixing a typo or adding a new tutorial, your contributions help everyone GROW. 🌱
+
+
+
+---
+
 ## ❓ Have a Question? Submit a PR!
 
 If you hit a roadblock or you're unsure about something you learned:
