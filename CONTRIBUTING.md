@@ -30,7 +30,39 @@ cd student-notebook
 
 ---
 
-### 2. Make Your Changes
+### 2. Folder Structure
+
+Here's how the repostiory is organized:
+
+```bash
+student-notebook/
+├── 00-getting-started/ # Setup instructions and onboarding
+├── 01-kubernetes-fundamentals/ # Pod and deployment labs
+├── 02-gitops/ # FluxCD GitOps exercises
+├── 03-security/ # PodSecurityContext and PSP labs
+├── 04-services-ingress/ # Service and Ingress labs
+├── 05-stateful-deploy/ # PersistentVolume and Stateful lab
+├── 99-reflections/ # Weekly reflections (week1.md, week2.md, etc.)
+├── docs/ # GitHub Pages content (MkDocs)
+├── mkdocs.yml # Site configuration file
+├── CONTRIBUTING.md # Contribution guidelines
+└── README.md # Student portfolio overview
+```
+
+
+### 📌 Guidelines
+
+- Add new labs in a new numbered folder (e.g., `06-statefulsets/`)
+- Weekly reflections should go in `99-reflections/weekX.md`
+- Markdown files for GitHub Pages go in `docs/`
+- All YAML manifests should live alongside their lab's `lab-guide.md`
+
+
+
+
+---
+
+### 3. Make Your Changes
 
 - Add your new lab YAMLs and `lab-guide.md` to a new folder (e.g., `06-volumes-lab/`)
 - Add your reflection to `99-reflections/weekX.md`
@@ -39,7 +71,7 @@ cd student-notebook
 
 ---
 
-### 3. Commit and Push
+### 4. Commit and Push
 
 ```bash
 git checkout -b add-my-lab
@@ -50,7 +82,7 @@ git push origin add-my-lab
 
 ---
 
-### 4. Submit a Pull Request
+### 5. Submit a Pull Request
 
 Your PR title should follow one of these formats:
 
