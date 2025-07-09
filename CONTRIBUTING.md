@@ -80,6 +80,25 @@ git commit -m "Add new lab for Week 6"
 git push origin add-my-lab
 ```
 
+
+Please use clear and consistent commit messages. This helps maintain a readable project history and reinforces best practices.
+
+Suggested Format: `<type>: <short summary>`
+
+Types:
+- `lab:` for new or updated lab files
+- `reflection:` for weekly updates in `99-reflections/`
+- `fix:` for bug fixes or typo corrections
+- `question:` for PRs that include questions or requests for help
+- `docs:` for general documentation updates
+
+Examples:
+`lab: add Week 6 StatefulSet lab`
+`reflection: add insights to week5.md`
+`fix: corrected service port in web-service.yaml`
+`question: flux kustomization sync issue`
+`docs: update mkdocs.yml with new section`
+
 ---
 
 ### 5. Submit a Pull Request
