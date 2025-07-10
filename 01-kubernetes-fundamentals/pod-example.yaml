@@ -10,4 +10,4 @@ spec:
         - containerPort: 80
       securityContext:
         runAsNonRoot: true
-          allowPrivilegeEscalation: false
+        allowPrivilegeEscalation: false
