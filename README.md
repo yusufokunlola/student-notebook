@@ -92,6 +92,10 @@ This repo is licensed under the [MIT License](LICENSE).
 
 ---
 
+## 🔁 Keep Your Fork In-sync
+
+👉 [Add upstream remote, fetch and merge](updating-your-fork.md)
+
 
 ---
 
