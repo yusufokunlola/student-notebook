@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: nginx:latest
+      image: nginxinc/nginx-unprivileged:stable
       ports:
         - containerPort: 80
       securityContext:
